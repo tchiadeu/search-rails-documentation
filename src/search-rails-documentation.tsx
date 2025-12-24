@@ -39,7 +39,7 @@ export default function SearchRailsDocs() {
       });
 
       return results;
-    } catch (error) {
+    } catch {
       return [];
     }
   }, [rawData]);
